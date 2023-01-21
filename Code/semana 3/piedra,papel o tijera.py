@@ -1,6 +1,5 @@
-
-player = input("Piedra, Papel o Tijera? :")
-computer = "Piedra"
+player = input("Piedra, Papel o Tijera? :").lower()
+computer = "Piedra".lower()
 
     #Logica del juego
 if player == computer:
@@ -20,5 +19,5 @@ elif player == "Tijera":
             print("Perdiste! ", computer, " > ", player)
         else:
             print("Ganaste! ", player, " < ", computer)
-else:
-        print("Error - Opción no valida, Intenta escribir las opciones como se las ve.")
+
+
